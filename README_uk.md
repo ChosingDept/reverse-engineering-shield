@@ -28,6 +28,10 @@ Gemini CLI та інших) тримати цінні частини на сер
 повторно перевіряти все на боці сервера, робити те, що залишилося, дорогим для аналізу й
 відстежуваним, — і атакувати власну збірку перед кожним релізом.
 
+Він охоплює **будь-який застосунок на будь-якому стеку**: веб, розширення браузера, мобільні,
+десктоп, .NET і JVM, ігри, WebAssembly, SDK і пакети, контейнери й локальні (on-prem) інсталяції,
+прошивки/IoT, ШІ-функції та моделі на пристрої — і API, що стоять за всім цим.
+
 ## Швидкий старт
 
 ### Встановіть скіл
@@ -118,6 +122,12 @@ result: 1 critical, 2 warning(s)
 | Розширення браузера (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Мобільні (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Десктоп (Electron, Tauri, нативні, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET і JVM (C#, Java, Kotlin, Scala, байт-код Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Ігри (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, пакети, контейнери, локальні (on-prem) інсталяції | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Прошивки, вбудовані системи, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| ШІ-функції та моделі на пристрої | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API та бекенди | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Боти й автоматизації | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Водяні знаки, канарки, юридичні питання | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

@@ -28,6 +28,10 @@ betiğidir. Kodlama ajanınıza (Claude Code, Codex, Cursor, Gemini CLI ve diğe
 sunucuda tutmayı, istemci kodunu haritasız yayınlamayı, her şeyi sunucu tarafında yeniden doğrulamayı,
 geriye kalanı pahalı ve izlenebilir hale getirmeyi ve her sürümden önce kendi derlemenize saldırmayı öğretir.
 
+**Her yığındaki her uygulamayı** kapsar: web, tarayıcı eklentileri, mobil, masaüstü, .NET ve JVM, oyunlar,
+WebAssembly, SDK'lar ve paketler, konteynerler ve şirket içi (on-prem) kurulumlar, donanım yazılımı/IoT,
+yapay zeka özellikleri ve cihaz üzerinde çalışan modeller — ve hepsinin arkasındaki API'ler.
+
 ## Hızlı başlangıç
 
 ### Beceriyi yükleyin
@@ -118,6 +122,12 @@ Beceri, ajanın ilgili olduğunda yüklediği odaklı kontrol listeleriyle birli
 | Tarayıcı eklentileri (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobil (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Masaüstü (Electron, Tauri, yerel, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET ve JVM (C#, Java, Kotlin, Scala, Android bayt kodu) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Oyunlar (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK'lar, paketler, konteynerler, şirket içi kurulumlar | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Donanım yazılımı, gömülü sistemler, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Yapay zeka özellikleri ve cihaz üzerinde çalışan modeller | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API'ler ve arka uçlar | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Botlar ve otomasyonlar | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Filigranlar, kanaryalar, hukuki konular | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

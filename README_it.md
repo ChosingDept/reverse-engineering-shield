@@ -29,6 +29,10 @@ Cursor, Gemini CLI e altri) a tenere le parti di valore sul server, rilasciare i
 client senza mappe, ri-validare tutto lato server, rendere ciò che resta costoso e
 tracciabile — e ad attaccare la tua stessa build prima di ogni release.
 
+Copre **qualsiasi app su qualsiasi stack**: web, estensioni del browser, mobile, desktop,
+.NET e JVM, giochi, WebAssembly, SDK e pacchetti, container e installazioni on-premise,
+firmware/IoT, funzionalità di AI e modelli on-device — e le API dietro a tutti loro.
+
 ## Avvio rapido
 
 ### Installa la skill
@@ -119,6 +123,12 @@ La skill include checklist mirate che l'agente carica quando servono:
 | Estensioni del browser (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobile (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Desktop (Electron, Tauri, nativo, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET e JVM (C#, Java, Kotlin, Scala, bytecode Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Giochi (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, pacchetti, container, installazioni on-premise | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, embedded, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Funzionalità di AI e modelli on-device | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API e backend | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Bot e automazioni | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Watermark, canary, aspetti legali | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

@@ -27,6 +27,9 @@
 클라이언트 코드는 맵 없이 배포하며, 모든 것을 서버 측에서 다시 검증하고, 남은 부분은 분석 비용이 크고 추적 가능하게 만들고,
 매 릴리스 전에 자신의 빌드를 직접 공격하도록 가르칩니다.
 
+**어떤 스택의 어떤 앱이든** 다룹니다: 웹, 브라우저 확장 프로그램, 모바일, 데스크톱, .NET 및 JVM, 게임, WebAssembly,
+SDK와 패키지, 컨테이너와 온프레미스 설치, 펌웨어/IoT, AI 기능과 온디바이스 모델, 그리고 이 모든 것 뒤에 있는 API까지.
+
 ## 빠른 시작
 
 ### 스킬 설치
@@ -117,6 +120,12 @@ CI에 연결할 수 있습니다([예시](docs/ci.md)).
 | 브라우저 확장 프로그램(Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | 모바일(React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | 데스크톱(Electron, Tauri, 네이티브, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET 및 JVM(C#, Java, Kotlin, Scala, Android 바이트코드) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| 게임(Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, 패키지, 컨테이너, 온프레미스 설치 | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| 펌웨어, 임베디드, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| AI 기능 및 온디바이스 모델 | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API 및 백엔드 | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | 봇 및 자동화 | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | 워터마크, 카나리아, 법적 대응 | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

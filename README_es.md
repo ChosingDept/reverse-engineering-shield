@@ -28,6 +28,11 @@ Gemini CLI y otros) a mantener las partes valiosas en el servidor, a publicar el
 sin source maps, a volver a validar todo en el servidor, a hacer que lo que quede sea caro y
 rastreable, y a atacar tu propio build antes de cada release.
 
+Cubre **cualquier app en cualquier stack**: web, extensiones de navegador, móvil, escritorio,
+.NET y JVM, juegos, WebAssembly, SDKs y paquetes, contenedores e instalaciones on-premise,
+firmware/IoT, funciones de IA y modelos que se ejecutan en el dispositivo, y las APIs que hay
+detrás de todo ello.
+
 ## Inicio rápido
 
 ### Instala la skill
@@ -118,6 +123,12 @@ La skill incluye checklists específicas que el agente carga cuando son relevant
 | Extensiones de navegador (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Móvil (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Escritorio (Electron, Tauri, nativo, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET y JVM (C#, Java, Kotlin, Scala, bytecode de Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Juegos (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDKs, paquetes, contenedores, instalaciones on-premise | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, sistemas embebidos, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Funciones de IA y modelos en el dispositivo | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | APIs y backends | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Bots y automatizaciones | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Marcas de agua, canarios, aspectos legales | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

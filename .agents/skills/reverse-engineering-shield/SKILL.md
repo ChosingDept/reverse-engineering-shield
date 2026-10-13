@@ -1,8 +1,8 @@
 ---
 name: reverse-engineering-shield
-description: Make reverse engineering useless for any project that ships code to users (web apps, browser extensions, mobile apps, Electron, APIs). Use when writing or refactoring client-side code, configuring production builds, designing bots or business rules, or before publishing a site, extension or app. Includes a build audit script and a self-attack step with REA.
+description: Make reverse engineering useless for any app on any stack that ships code to users — web, browser extensions, mobile, desktop, .NET and JVM, games, WebAssembly, SDKs and packages, containers and on-prem installs, firmware/IoT, AI features and on-device models, plus the APIs behind them. Use when writing or refactoring client-side code, configuring release builds, designing bots or business rules, or before publishing anything. Includes a build audit script and a self-attack step with REA.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Reverse Engineering Shield
@@ -42,6 +42,12 @@ business rules, vendor code — from what the site hands to every visitor.
    - Browser extensions (Chrome MV3, Firefox): [references/extensions.md](references/extensions.md)
    - Mobile (React Native/Expo, native Android/iOS, Flutter): [references/mobile.md](references/mobile.md)
    - Desktop (Electron, Tauri, native, Python): [references/desktop.md](references/desktop.md)
+   - .NET and JVM (C#, Java, Kotlin, Scala, Android bytecode): [references/managed-runtimes.md](references/managed-runtimes.md)
+   - Games (Unity, Unreal, Godot): [references/games.md](references/games.md)
+   - WebAssembly: [references/webassembly.md](references/webassembly.md)
+   - SDKs, packages, containers and on-prem installs: [references/packages.md](references/packages.md)
+   - Firmware, embedded and IoT: [references/embedded.md](references/embedded.md)
+   - AI features and on-device models: [references/ai-models.md](references/ai-models.md)
    - APIs and backends: [references/api.md](references/api.md)
    - Bots, automations and robots acting on third-party sites: [references/server-driven.md](references/server-driven.md)
    - Watermarks, canaries and legal: [references/traceability.md](references/traceability.md)

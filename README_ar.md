@@ -30,6 +30,11 @@
 يعيد التحقق من كل شيء على الخادم، وأن يجعل ما يتبقى مكلفًا وقابلًا للتتبع — وأن يهاجم
 البناء (build) الخاص بك قبل كل إصدار.
 
+وهي تغطي **أي تطبيق على أي تقنية (stack)**: الويب، وإضافات المتصفح، والهاتف المحمول، وسطح
+المكتب، و.NET وJVM، والألعاب، وWebAssembly، وحزم SDK والحزم البرمجية، والحاويات والتثبيتات
+المحلية (on-prem)، والبرامج الثابتة/IoT، وميزات الذكاء الاصطناعي والنماذج العاملة على
+الجهاز — وواجهات API التي تقف خلفها جميعًا.
+
 ## البدء السريع
 
 ### ثبّت المهارة
@@ -120,6 +125,12 @@ result: 1 critical, 2 warning(s)
 | إضافات المتصفح (Chrome MV3، Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | الهاتف المحمول (React Native/Expo، Android، iOS، Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | سطح المكتب (Electron، Tauri، أصلي، Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET وJVM (C#، Java، Kotlin، Scala، شيفرة بايت Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| الألعاب (Unity، Unreal، Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| حزم SDK، الحزم البرمجية، الحاويات، التثبيتات المحلية (on-prem) | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| البرامج الثابتة (Firmware)، الأنظمة المدمجة، IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| ميزات الذكاء الاصطناعي والنماذج على الجهاز | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | واجهات API والخوادم الخلفية | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | الروبوتات والأتمتة | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | العلامات المائية، وسجلات canary، والجوانب القانونية | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

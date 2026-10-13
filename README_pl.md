@@ -30,6 +30,11 @@ klienta bez map, ponownie walidował wszystko po stronie serwera, czynił to, co
 kosztownym w analizie i możliwym do namierzenia — a przed każdym wydaniem atakował twój
 własny build.
 
+Obejmuje **dowolną aplikację w dowolnym stosie**: web, rozszerzenia przeglądarki,
+aplikacje mobilne, desktopowe, .NET i JVM, gry, WebAssembly, SDK i pakiety, kontenery i
+instalacje on-premise, firmware/IoT, funkcje AI i modele działające na urządzeniu — oraz
+API, które stoją za nimi wszystkimi.
+
 ## Szybki start
 
 ### Zainstaluj skill
@@ -121,6 +126,12 @@ Skill zawiera ukierunkowane checklisty, które agent wczytuje, gdy są potrzebne
 | Rozszerzenia przeglądarki (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobile (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Desktop (Electron, Tauri, natywne, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET i JVM (C#, Java, Kotlin, Scala, bajtkod Androida) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Gry (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, pakiety, kontenery, instalacje on-premise | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, systemy wbudowane, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Funkcje AI i modele na urządzeniu | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API i backendy | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Boty i automatyzacje | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Znaki wodne, canary, kwestie prawne | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

@@ -28,6 +28,10 @@ and others) to keep the valuable parts on the server, ship client code without m
 re-validate everything server-side, make what is left expensive and traceable — and to
 attack your own build before every release.
 
+It covers **any app on any stack**: web, browser extensions, mobile, desktop, .NET and
+JVM, games, WebAssembly, SDKs and packages, containers and on-prem installs,
+firmware/IoT, AI features and on-device models — and the APIs behind all of them.
+
 ## Quick start
 
 ### Install the skill
@@ -118,6 +122,12 @@ The skill ships focused checklists the agent loads when relevant:
 | Browser extensions (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobile (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Desktop (Electron, Tauri, native, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET and JVM (C#, Java, Kotlin, Scala, Android bytecode) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Games (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDKs, packages, containers, on-prem installs | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, embedded, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| AI features and on-device models | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | APIs and backends | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Bots and automations | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Watermarks, canaries, legal | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

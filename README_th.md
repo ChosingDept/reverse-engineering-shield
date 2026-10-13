@@ -28,6 +28,10 @@
 ตรวจสอบทุกอย่างซ้ำที่ฝั่งเซิร์ฟเวอร์ ทำให้สิ่งที่เหลืออยู่มีต้นทุนสูงในการวิเคราะห์และตรวจย้อนได้ — และ
 โจมตีบิลด์ของคุณเองก่อนทุกการปล่อยเวอร์ชัน
 
+ครอบคลุม **ทุกแอปบนทุกสแตก**: เว็บ, ส่วนขยายเบราว์เซอร์, มือถือ, เดสก์ท็อป, .NET และ JVM, เกม,
+WebAssembly, SDK และแพ็กเกจ, คอนเทนเนอร์และการติดตั้งแบบ on-prem, เฟิร์มแวร์/IoT, ฟีเจอร์ AI
+และโมเดลที่รันบนอุปกรณ์ — รวมถึง API ที่อยู่เบื้องหลังทั้งหมดนี้
+
 ## เริ่มต้นอย่างรวดเร็ว
 
 ### ติดตั้งสกิล
@@ -118,6 +122,12 @@ exit code `2` จะบล็อกการปล่อยเวอร์ชั
 | ส่วนขยายเบราว์เซอร์ (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | มือถือ (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | เดสก์ท็อป (Electron, Tauri, เนทีฟ, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET และ JVM (C#, Java, Kotlin, Scala, Android bytecode) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| เกม (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, แพ็กเกจ, คอนเทนเนอร์, การติดตั้งแบบ on-prem | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| เฟิร์มแวร์, ระบบฝังตัว, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| ฟีเจอร์ AI และโมเดลที่รันบนอุปกรณ์ | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API และแบ็กเอนด์ | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | บอตและระบบอัตโนมัติ | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | ลายน้ำ, canary, ด้านกฎหมาย | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

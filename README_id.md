@@ -29,6 +29,10 @@ Gemini CLI, dan lainnya) untuk menyimpan bagian yang bernilai di server, merilis
 tanpa map, memvalidasi ulang semuanya di sisi server, membuat sisanya mahal dan dapat
 dilacak — serta menyerang build Anda sendiri sebelum setiap rilis.
 
+Skill ini mencakup **aplikasi apa pun di stack apa pun**: web, ekstensi browser, mobile,
+desktop, .NET dan JVM, game, WebAssembly, SDK dan paket, container dan instalasi
+on-premise, firmware/IoT, fitur AI dan model on-device — serta API di balik semuanya.
+
 ## Mulai cepat
 
 ### Instal skill
@@ -119,6 +123,12 @@ Skill ini menyertakan checklist terfokus yang dimuat agen saat relevan:
 | Ekstensi browser (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobile (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Desktop (Electron, Tauri, native, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET dan JVM (C#, Java, Kotlin, Scala, bytecode Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Game (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, paket, container, instalasi on-premise | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, embedded, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Fitur AI dan model on-device | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API dan backend | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Bot dan otomatisasi | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Watermark, canary, aspek hukum | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

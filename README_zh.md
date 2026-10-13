@@ -27,6 +27,9 @@
 发布不带映射文件的客户端代码，在服务端重新校验一切，让剩下的部分代价高昂且可追溯——
 并在每次发布前先攻击你自己的构建产物。
 
+它覆盖**任何技术栈上的任何应用**：Web、浏览器扩展、移动端、桌面端、.NET 和 JVM、游戏、WebAssembly、
+SDK 与软件包、容器与本地部署安装、固件/IoT、AI 功能与端侧模型——以及它们背后的所有 API。
+
 ## 快速开始
 
 ### 安装 skill
@@ -116,6 +119,12 @@ CI（[示例](docs/ci.md)）。
 | 浏览器扩展（Chrome MV3、Firefox） | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | 移动端（React Native/Expo、Android、iOS、Flutter） | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | 桌面端（Electron、Tauri、原生、Python） | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET 与 JVM（C#、Java、Kotlin、Scala、Android 字节码） | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| 游戏（Unity、Unreal、Godot） | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK、软件包、容器、本地部署安装 | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| 固件、嵌入式、IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| AI 功能与端侧模型 | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API 与后端 | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | 机器人与自动化 | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | 水印、金丝雀、法律 | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

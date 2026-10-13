@@ -28,6 +28,11 @@ e outros) a manter as partes valiosas no servidor, entregar o código do cliente
 revalidar tudo no servidor, tornar o que sobra caro e rastreável — e a atacar o seu próprio
 build antes de cada release.
 
+Ela cobre **qualquer app em qualquer stack**: web, extensões de navegador, mobile,
+desktop, .NET e JVM, jogos, WebAssembly, SDKs e pacotes, containers e instalações
+on-premise, firmware/IoT, recursos de IA e modelos no dispositivo — e as APIs por trás de
+todos eles.
+
 ## Início rápido
 
 ### Instale a skill
@@ -118,6 +123,12 @@ A skill traz checklists focados que o agente carrega quando relevantes:
 | Extensões de navegador (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobile (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Desktop (Electron, Tauri, nativo, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET e JVM (C#, Java, Kotlin, Scala, bytecode Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Jogos (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDKs, pacotes, containers, instalações on-premise | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, embarcados, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Recursos de IA e modelos no dispositivo | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | APIs e backends | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Robôs e automações | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Marcas d'água, canários, jurídico | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

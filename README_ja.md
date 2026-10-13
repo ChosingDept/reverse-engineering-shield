@@ -27,6 +27,10 @@ Electron アプリ、APK/IPA、ネイティブバイナリがどう動いてい�
 クライアントコードはマップなしで出荷し、すべてをサーバー側で再検証し、残った部分は解析コストが高く追跡可能にすること、
 そしてリリースのたびに自分のビルドを自ら攻撃することを教えます。
 
+対象は**あらゆるスタックのあらゆるアプリ**です：Web、ブラウザ拡張機能、モバイル、デスクトップ、.NET と JVM、ゲーム、
+WebAssembly、SDK とパッケージ、コンテナとオンプレミス環境へのインストール、ファームウェア/IoT、AI 機能とオンデバイスモデル——
+そしてそれらすべての背後にある API までカバーします。
+
 ## クイックスタート
 
 ### スキルをインストールする
@@ -117,6 +121,12 @@ result: 1 critical, 2 warning(s)
 | ブラウザ拡張機能（Chrome MV3、Firefox） | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | モバイル（React Native/Expo、Android、iOS、Flutter） | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | デスクトップ（Electron、Tauri、ネイティブ、Python） | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET と JVM（C#、Java、Kotlin、Scala、Android バイトコード） | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| ゲーム（Unity、Unreal、Godot） | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK、パッケージ、コンテナ、オンプレミス環境へのインストール | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| ファームウェア、組み込み、IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| AI 機能とオンデバイスモデル | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API とバックエンド | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | ボットと自動化 | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | ウォーターマーク、カナリア、法務 | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

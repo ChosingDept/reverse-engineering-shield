@@ -31,6 +31,11 @@ Cursor، Gemini CLI و دیگران) یاد می‌دهد بخش‌های ارز
 کلاینت را بدون مپ منتشر کند، همه‌چیز را دوباره در سمت سرور اعتبارسنجی کند، آنچه باقی
 می‌ماند را پرهزینه و قابل‌ردیابی کند — و پیش از هر انتشار، به build خود شما حمله کند.
 
+این مهارت **هر اپی را روی هر استکی** پوشش می‌دهد: وب، افزونه‌های مرورگر، موبایل، دسکتاپ،
+.NET و JVM، بازی‌ها، WebAssembly، SDKها و پکیج‌ها، کانتینرها و نصب‌های on-prem،
+فرم‌ویر/IoT، قابلیت‌های هوش مصنوعی و مدل‌های روی دستگاه — و APIهایی که پشت همهٔ آن‌ها
+هستند.
+
 ## شروع سریع
 
 ### نصب مهارت
@@ -121,6 +126,12 @@ CI ([نمونه](docs/ci.md)).
 | افزونه‌های مرورگر (Chrome MV3، Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | موبایل (React Native/Expo، Android، iOS، Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | دسکتاپ (Electron، Tauri، نیتیو، Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET و JVM (C#، Java، Kotlin، Scala، بایت‌کد Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| بازی‌ها (Unity، Unreal، Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDKها، پکیج‌ها، کانتینرها، نصب‌های on-prem | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| فرم‌ویر، سیستم‌های تعبیه‌شده، IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| قابلیت‌های هوش مصنوعی و مدل‌های روی دستگاه | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | APIها و بک‌اندها | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | ربات‌ها و اتوماسیون‌ها | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | واترمارک‌ها، canaryها، مسائل حقوقی | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

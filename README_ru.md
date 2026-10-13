@@ -28,6 +28,10 @@ APK/IPA или нативный бинарный файл. Помешать ко
 стороне сервера, делать оставшееся дорогим для анализа и отслеживаемым — и атаковать собственную сборку
 перед каждым релизом.
 
+Он охватывает **любое приложение на любом стеке**: веб, расширения браузера, мобильные и десктопные
+приложения, .NET и JVM, игры, WebAssembly, SDK и пакеты, контейнеры и on-prem-установки, прошивки/IoT,
+AI-функции и модели на устройстве — и API, которые стоят за всем этим.
+
 ## Быстрый старт
 
 ### Установите навык
@@ -118,6 +122,12 @@ CI ([пример](docs/ci.md)).
 | Расширения браузера (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Мобильные (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Десктоп (Electron, Tauri, нативные, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET и JVM (C#, Java, Kotlin, Scala, байт-код Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Игры (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, пакеты, контейнеры, on-prem-установки | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Прошивки, встраиваемые системы, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| AI-функции и модели на устройстве | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API и бэкенды | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Боты и автоматизации | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Водяные знаки, canary-записи, юридические аспекты | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

@@ -28,6 +28,11 @@ d'autres) à garder les parties précieuses sur le serveur, à livrer le code cl
 à tout revalider côté serveur, à rendre ce qui reste coûteux et traçable, et à attaquer votre
 propre build avant chaque release.
 
+Elle couvre **n'importe quelle app sur n'importe quel stack** : web, extensions de navigateur,
+mobile, desktop, .NET et JVM, jeux, WebAssembly, SDK et paquets, conteneurs et installations
+on-premise, firmware/IoT, fonctionnalités d'IA et modèles exécutés sur l'appareil, ainsi que les
+API qui se trouvent derrière tout cela.
+
 ## Démarrage rapide
 
 ### Installer la skill
@@ -118,6 +123,12 @@ La skill embarque des checklists ciblées que l'agent charge quand elles sont pe
 | Extensions de navigateur (Chrome MV3, Firefox) | [extensions.md](.agents/skills/reverse-engineering-shield/references/extensions.md) |
 | Mobile (React Native/Expo, Android, iOS, Flutter) | [mobile.md](.agents/skills/reverse-engineering-shield/references/mobile.md) |
 | Desktop (Electron, Tauri, natif, Python) | [desktop.md](.agents/skills/reverse-engineering-shield/references/desktop.md) |
+| .NET et JVM (C#, Java, Kotlin, Scala, bytecode Android) | [managed-runtimes.md](.agents/skills/reverse-engineering-shield/references/managed-runtimes.md) |
+| Jeux (Unity, Unreal, Godot) | [games.md](.agents/skills/reverse-engineering-shield/references/games.md) |
+| WebAssembly | [webassembly.md](.agents/skills/reverse-engineering-shield/references/webassembly.md) |
+| SDK, paquets, conteneurs, installations on-premise | [packages.md](.agents/skills/reverse-engineering-shield/references/packages.md) |
+| Firmware, systèmes embarqués, IoT | [embedded.md](.agents/skills/reverse-engineering-shield/references/embedded.md) |
+| Fonctionnalités d'IA et modèles exécutés sur l'appareil | [ai-models.md](.agents/skills/reverse-engineering-shield/references/ai-models.md) |
 | API et backends | [api.md](.agents/skills/reverse-engineering-shield/references/api.md) |
 | Bots et automatisations | [server-driven.md](.agents/skills/reverse-engineering-shield/references/server-driven.md) |
 | Filigranes, canaris, aspects juridiques | [traceability.md](.agents/skills/reverse-engineering-shield/references/traceability.md) |

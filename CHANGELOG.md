@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 — 2026-10-13
+
+- Playbooks for every stack: .NET and JVM (managed-runtimes), games (Unity, Unreal, Godot),
+  WebAssembly, SDKs/packages/containers/on-prem installs, firmware and IoT, AI features and
+  on-device models.
+- Skill and README now state coverage for any app on any stack.
+
 ## 1.0.0 — 2026-10-13
 
 - First public release.
